@@ -17,7 +17,7 @@ This project implements a debate system using **LangGraph** and **Gemini Flash 1
   - Ends after exactly 8 rounds (4 each)
 - `Judge`: Reviews full memory, summarizes the debate, and declares a winner.
 
-![Workflow Image]()
+![Workflow Image](Screenshot 2025-06-28 234729.png)
 
 ---
 
