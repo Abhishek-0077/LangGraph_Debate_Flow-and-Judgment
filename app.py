@@ -2,7 +2,7 @@ from langgraph.graph import StateGraph , START , END
 from typing import TypedDict
 import google.generativeai as genai
 
-GENAI_API_KEY = "AIzaSyBu67z_HDVG3JO52KGXT-QjgAYIeL35Xxw"
+GENAI_API_KEY = "API"
 genai.configure(api_key=GENAI_API_KEY)
 
 model = genai.GenerativeModel(model_name="models/gemini-1.5-flash")
